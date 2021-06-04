@@ -1,12 +1,26 @@
 # react-native-init
 
-react-native -v 0.59.8
+react-native
 
-yarn
+-v 0.59.8
 
+```
+
+食用方法。如果做了，请跳过：
+1、clone项目
+2、使用yarn管理包，安装yarn
+npm install -g yarn
+查看版本：yarn --version
+3、安装项目依赖
+在项目根目录运行 yarn 命令
+4、安装RN的前置环境。安装过后把项目使用Android Studio跑一下。
+5、启动android虚拟机或链接真机（真机需要开启开发者模式）
+6、启动android
 react-native run-android
 
-请确保环境配置完成再运行，否则会报错。前置环境包括 javaJDK，node，配置对应的环境变量等，具体情况参考官方网站。
+请确保环境配置完成再运行，否则会报错。环境配置参考官方网站。
+
+```
 
 链接：
 
@@ -30,16 +44,16 @@ tips:这个项目是可以跑起来的。如果跑不起来：
 
 1、请检查前置环境是否安装。
 
-2、node 版本是否过低，不推荐使用版本为 12.14.0 及以上版本的 node（跑不起来,node 小黑框会消失），推荐使用版本为 12.10.0 的 node。[node 旧版本下载](https://nodejs.org/zh-cn/download/releases/)
+2、node 版本是否过低，不推荐使用版本为 12.14.0 及以上版本的 node（会导致项目跑不起来），推荐使用版本为 12.10.0 的 node。[node 旧版本下载](https://nodejs.org/zh-cn/download/releases/)
 
 3、更改 android=>gradle.properties 里面的密钥
 MYAPP_RELEASE_STORE_FILE、
 MYAPP_RELEASE_KEY_ALIAS、
 MYAPP_RELEASE_STORE_PASSWORD、
 MYAPP_RELEASE_KEY_PASSWORD ，
-改为你自己的就可以了。[android生成密钥的方法](https://reactnative.cn/docs/signed-apk-android#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5)
+改为你自己的就可以了。[生成密钥](https://reactnative.cn/docs/signed-apk-android#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5)
 
-4、本地有对应的 gradle 版本包。本项目用的是“gradle-6.3-all”，没有需要下。[gradle 包国内镜像下载](https://mirrors.cloud.tencent.com/gradle/)
+4、本地是否有对应的 gradle 版本包。本项目用的是“gradle-6.3-all”，没有的需要下。[gradle 包国内镜像下载](https://mirrors.cloud.tencent.com/gradle/)
 
 # 2021-06-04
 
