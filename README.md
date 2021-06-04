@@ -1,10 +1,11 @@
 # react-native-init
 
-react-native
-
--v 0.59.8
 
 ```
+
+react-native
+
+版本：v 0.59.8
 
 食用方法。如果做了，请跳过：
 
@@ -19,7 +20,9 @@ npm install -g yarn
 
 在项目根目录运行 yarn 命令
 
-4、安装RN的前置环境。安装过后把项目使用Android Studio跑一下。
+4、安装RN的前置环境。
+
+这一步比较复杂，需要参考下方链接。安装过后把项目放在Android Studio跑一下，看能不能跑起来，环境没问题是可以跑起来的。
 
 5、启动android虚拟机或链接真机（真机需要开启开发者模式）
 
@@ -27,7 +30,12 @@ npm install -g yarn
 
 react-native run-android
 
-请确保环境配置完成再运行，否则会报错。环境配置参考官方网站。
+7、打包apk
+
+没试过打包ios，请查官网或百度。
+打包apk，参考下方链接。
+
+* 请确保环境配置完成再运行，否则会报错。环境配置参考下方链接。
 
 ```
 
@@ -46,6 +54,8 @@ react-native run-android
 [国内镜像 gradle 包下载](https://mirrors.cloud.tencent.com/gradle/)
 
 [生成 Android 密钥](https://reactnative.cn/docs/signed-apk-android#%E7%94%9F%E6%88%90%E4%B8%80%E4%B8%AA%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5)
+
+[打包apk](https://reactnative.cn/docs/signed-apk-android)
 
 # 2020-1-10
 
