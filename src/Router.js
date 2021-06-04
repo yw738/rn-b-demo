@@ -1,32 +1,38 @@
-import {createAppContainer,createStackNavigator} from 'react-navigation';
+import { createAppContainer, createStackNavigator } from "react-navigation";
 import Home from "./pages/home";
 import main from "./pages/main";
 import HomeDetail from "./pages/homeDetails/home_details";
+import GuidePage from "./pages/login/guidePage.tsx";
 // createStackNavigator API
 /*配置路由 与 vue-router */
 // route configs对象是从路由名称到路由配置的映射，它告诉导航器为该路由提供什么。
-const Rooter = createStackNavigator({
+const Rooter = createStackNavigator(
+  {
+    GuidePage: {
+      screen: GuidePage,
+      
+    },
     Home: {
-        screen: Home,
-        // `screen` 是一个React组件，它将成为屏幕的主要内容.
-        // 可选: 在Web应用程序中深度链接或使用react-navigation时，将使用以下路径：
-        // path：'people /：name'，
-        // 动作和路线参数从路径中提取。
-        // 可选: 覆盖屏幕的`navigationOptions`
-        // navigationOptions: ({ navigation }) => ({
-        //     title: `${navigation.state.params.name}'s Profile'`,
-        // }),
-
-    },//路由
+      screen: Home,
+      // `screen` 是一个React组件，它将成为屏幕的主要内容.
+      // 可选: 在Web应用程序中深度链接或使用react-navigation时，将使用以下路径：
+      // path：'people /：name'，
+      // 动作和路线参数从路径中提取。
+      // 可选: 覆盖屏幕的`navigationOptions`
+      // navigationOptions: ({ navigation }) => ({
+      //     title: `${navigation.state.params.name}'s Profile'`,
+      // }),
+    }, //路由
     main: {
-        screen: main
+      screen: main,
     },
     HomeDetail: {
-        screen: HomeDetail
+      screen: HomeDetail,
     },
-},{
-    initialRouteName: 'main',
-    }
+  },
+  {
+    initialRouteName: "main",
+  }
 );
 // StackNavigatorConfig
 // 路由器的选项：

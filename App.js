@@ -10,6 +10,7 @@ const instructions = Platform.select({
 });
 // import Home from './src/pages/home'
 import Router from './src/Router'
+
 export default class App extends Component {
   render() {
     return (

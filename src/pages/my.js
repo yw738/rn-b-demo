@@ -88,7 +88,7 @@ export default class My extends Component {
                     data={this.state.data}
                     renderItem={({item})=>(
                         <Text>
-                            {item.title}, => ,{item.releaseYear}
+                            {item.title},{item.releaseYear}
                         </Text>
                         )}
                     keyExtractor={(item,index)=>item.id}
