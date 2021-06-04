@@ -1,5 +1,4 @@
-# react-native-init
-
+# react-native
 
 ```
 
