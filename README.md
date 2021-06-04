@@ -6,7 +6,7 @@ yarn
 
 react-native run-android
 
-请确保环境配置完成再运行，否则会报错。前置环境包括 javaJDK，node 等，具体情况参考官方网站。
+请确保环境配置完成再运行，否则会报错。前置环境包括 javaJDK，node，配置对应的环境变量等，具体情况参考官方网站。
 
 链接：
 
