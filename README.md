@@ -7,22 +7,31 @@ react-native
 ```
 
 食用方法。如果做了，请跳过：
+
 1、clone项目
+
 2、使用yarn管理包，安装yarn
+
 npm install -g yarn
 查看版本：yarn --version
+
 3、安装项目依赖
+
 在项目根目录运行 yarn 命令
+
 4、安装RN的前置环境。安装过后把项目使用Android Studio跑一下。
+
 5、启动android虚拟机或链接真机（真机需要开启开发者模式）
+
 6、启动android
+
 react-native run-android
 
 请确保环境配置完成再运行，否则会报错。环境配置参考官方网站。
 
 ```
 
-链接：
+# 链接链接
 
 [搭建开发环境](https://reactnative.cn/docs/environment-setup)
 
