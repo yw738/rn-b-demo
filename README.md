@@ -38,7 +38,7 @@ react-native run-android
 
 ```
 
-# 链接链接
+# 参考链接
 
 [搭建开发环境](https://reactnative.cn/docs/environment-setup)
 
