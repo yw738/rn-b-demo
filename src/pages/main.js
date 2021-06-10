@@ -24,6 +24,10 @@ import Find from "./find";
 /*看到生命周期*/
 export default class main extends Component {
   //es6 写法。getInitalState()初始化state 已被淘汰。用constructor代替 。
+  static navigationOptions = {
+    tabBarVisible: false, // 隐藏底部导航栏
+    header:null,  //隐藏顶部导航栏
+  };
   constructor(props) {
     super(props); //执行父类的方法
     this.state = {

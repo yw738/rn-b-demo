@@ -2,7 +2,7 @@ import { createAppContainer, createStackNavigator } from "react-navigation";
 import Home from "./pages/home";
 import main from "./pages/main";
 import HomeDetail from "./pages/homeDetails/home_details";
-import GuidePage from "./pages/login/guidePage.tsx";
+import GuidePage from "./pages/login/guidePage";
 // createStackNavigator API
 /*配置路由 与 vue-router */
 // route configs对象是从路由名称到路由配置的映射，它告诉导航器为该路由提供什么。
@@ -10,7 +10,6 @@ const Rooter = createStackNavigator(
   {
     GuidePage: {
       screen: GuidePage,
-      
     },
     Home: {
       screen: Home,

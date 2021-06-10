@@ -78,3 +78,12 @@ MYAPP_RELEASE_KEY_PASSWORD ，
 tips：ts 检查
 
 1、运行 yarn tsc 对 TypeScript 文件进行类型检查。
+
+# 2021-06-10
+[启动安卓虚拟机](https://www.cnblogs.com/joe235/p/11223901.html)
+```
+
+参考代码：
+C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -netdelay none -netspeed full -avd Pixel_3a_API_30_x86
+
+```

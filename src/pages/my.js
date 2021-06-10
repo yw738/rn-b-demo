@@ -57,7 +57,6 @@ export default class My extends Component {
                     {this.scrollChild()}
                 </ScrollView>
                 <View >
-                    <Image source={require('./../images/0fa611e63cfdadab2b35d916246401d1_68463571_p0.png')} style={style.img}/>
                     <TextInput
                         placeholder={'请输入账号'}
                     />
