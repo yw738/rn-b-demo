@@ -56,7 +56,7 @@ react-native run-android
 
 [打包apk](https://reactnative.cn/docs/signed-apk-android)
 
-# 2020-1-10
+# 2021-06-01
 
 tips:这个项目是可以跑起来的。如果跑不起来：
 
